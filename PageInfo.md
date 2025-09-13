@@ -2,7 +2,7 @@
 
 Welcome! I’m a Mechanical Engineering student at Colorado School of Mines, focused on robotics, mechatronics, and system integration.  
 This site highlights my academic and project experience in **robotics, controls, and reliability testing**.  
-Click here to view my GitHub project repository:[View Portfolio Projects](https://github.com/CejaFlorendo/Project-Portfolio)
+Click here to view my GitHub project repository: [View Portfolio Projects](https://github.com/CejaFlorendo/Project-Portfolio)
 ---
 
 ## 🚀 Featured Projects
