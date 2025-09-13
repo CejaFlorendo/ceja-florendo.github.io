@@ -11,41 +11,34 @@ Click here to view my GitHub project repository: [View Portfolio Projects](https
 
 ## Featured Projects
 
-### Self-Balancing Roller Robot
-- Designed and built a self-balancing robot powered by an IMU and ESP32 microcontroller  
-- Tuned a PID controller to maintain zero-tilt, coordinating and characterizing 3 DC motors with IMU feedback  
-- Stress-tested and fault-analyzed the system for robustness, achieving a design highly resistant to tipping  
+<div class="project">
+<h3>Self-Balancing Roller Robot</h3>
+<ul>
+  <li>Designed and built a self-balancing robot powered by an IMU and ESP32 microcontroller</li>
+  <li>Tuned a PID controller to maintain zero-tilt, coordinating and characterizing 3 DC motors with IMU feedback</li>
+  <li>Stress-tested and fault-analyzed the system for robustness, achieving a design highly resistant to tipping</li>
+</ul>
+<a class="btn" href="https://github.com/CejaFlorendo/Project-Portfolio/tree/main/roller-robot">View Project Repository ↗</a>
+</div>
 
-🔗 [View Project Repository](https://github.com/CejaFlorendo/Project-Portfolio/tree/main/roller-robot)
+<div class="project">
+<h3>2D Walking Simulation</h3>
+<ul>
+  <li>Developed a dynamic 2D bipedal walker from first principles in MATLAB with Lagrangian mechanics</li>
+  <li>Implemented PD control of hip and knee joints with ground contact &amp; friction models</li>
+  <li>Achieved stable gait cycles and validated robustness under perturbations</li>
+</ul>
+<a class="btn" href="https://github.com/CejaFlorendo/Project-Portfolio/tree/main/2d-walker">View Project Repository ↗</a>
+</div>
 
----
+<div class="project">
+<h3>Plastic Recycling: Fine Shredder</h3>
+<ul>
+  <li>Designed/wired electrical system with motor controls and emergency stop</li>
+  <li>Performed FEA &amp; fatigue life analysis in SolidWorks</li>
+  <li>Prototype shredded plastic with sub-millimeter precision</li>
+</ul>
+<a class="btn" href="https://github.com/CejaFlorendo/Project-Portfolio/tree/main/fine-shredder">View Project Repository ↗</a>
+</div>
 
-### 2D Walking Simulation
-- Developed a dynamic 2D bipedal walker from first principles in MATLAB with Lagrangian mechanics  
-- Implemented PD control of hip and knee joints with ground contact & friction models  
-- Achieved stable gait cycles and validated robustness under perturbations  
-
-🔗 [View Project Repository](https://github.com/CejaFlorendo/Project-Portfolio/tree/main/2d-walker)
-
----
-
-### Plastic Recycling: Fine Shredder
-- Designed/wired electrical system with motor controls and emergency stop  
-- Performed FEA & fatigue life analysis in SolidWorks  
-- Prototype shredded plastic with sub-millimeter precision for injection molding feedstock  
-
-🔗 [View Project Repository](https://github.com/CejaFlorendo/Project-Portfolio/tree/main/fine-shredder)
-
----
-
-## Skills
-**Software & Simulation:** MATLAB, Python, C++, SolidWorks, Abaqus, Ansys, OpenSim  
-**Controls & Firmware:** PID/PD control, Arduino/ESP32, motor drivers, IMU integration  
-**Fabrication:** Machining, 3D printing, wiring/assembly, GD&T, test fixture design  
-**Verification & Test:** stress testing, root cause analysis, reliability validation  
-
----
-
-**Contact:**  
-[Email](mailto:crflorendo@icloud.com) | [GitHub](https://github.com/CejaFlorendo) | [LinkedIn](https://www.linkedin.com/in/ceja-florendo-a9b47b24b/)
 
