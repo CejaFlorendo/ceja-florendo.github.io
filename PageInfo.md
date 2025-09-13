@@ -44,4 +44,5 @@ Click here to view my GitHub project repository: [View Portfolio Projects](https
 ---
 
 **Contact:**  
-[Email](mailto:crflorendo@icloud.com) | [GitHub](https://github.com/CejaFlorendo) | [LinkedIn](www.linkedin.com/in/ceja-florendo-a9b47b24b/)
+[Email](mailto:crflorendo@icloud.com) | [GitHub](https://github.com/CejaFlorendo) | [LinkedIn](https://www.linkedin.com/in/ceja-florendo-a9b47b24b/)
+
