@@ -6,9 +6,9 @@ This site highlights my academic and project experience in **robotics, controls,
 Click here to view my GitHub project repository: [View Portfolio Projects](https://github.com/CejaFlorendo/Project-Portfolio)
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🤖 Self-Balancing Roller Robot
+### Self-Balancing Roller Robot
 - Designed and built a self-balancing robot powered by an IMU and ESP32 microcontroller  
 - Tuned a PID controller to maintain zero-tilt, coordinating and characterizing 3 DC motors with IMU feedback  
 - Stress-tested and fault-analyzed the system for robustness, achieving a design highly resistant to tipping  
@@ -17,7 +17,7 @@ Click here to view my GitHub project repository: [View Portfolio Projects](https
 
 ---
 
-### 🦿 2D Walking Simulation
+### 2D Walking Simulation
 - Developed a dynamic 2D bipedal walker from first principles in MATLAB with Lagrangian mechanics  
 - Implemented PD control of hip and knee joints with ground contact & friction models  
 - Achieved stable gait cycles and validated robustness under perturbations  
@@ -26,7 +26,7 @@ Click here to view my GitHub project repository: [View Portfolio Projects](https
 
 ---
 
-### ♻️ Plastic Recycling: Fine Shredder
+### Plastic Recycling: Fine Shredder
 - Designed/wired electrical system with motor controls and emergency stop  
 - Performed FEA & fatigue life analysis in SolidWorks  
 - Prototype shredded plastic with sub-millimeter precision for injection molding feedstock  
@@ -35,7 +35,7 @@ Click here to view my GitHub project repository: [View Portfolio Projects](https
 
 ---
 
-## 🛠 Skills
+## Skills
 **Software & Simulation:** MATLAB, Python, C++, SolidWorks, Abaqus, Ansys, OpenSim  
 **Controls & Firmware:** PID/PD control, Arduino/ESP32, motor drivers, IMU integration  
 **Fabrication:** Machining, 3D printing, wiring/assembly, GD&T, test fixture design  
@@ -43,5 +43,5 @@ Click here to view my GitHub project repository: [View Portfolio Projects](https
 
 ---
 
-📫 **Contact:**  
+**Contact:**  
 [Email](mailto:crflorendo@icloud.com) | [GitHub](https://github.com/CejaFlorendo) | [LinkedIn](www.linkedin.com/in/ceja-florendo-a9b47b24b/)
