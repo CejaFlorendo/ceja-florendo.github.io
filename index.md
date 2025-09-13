@@ -1,3 +1,6 @@
+<head>
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
 # Ceja Florendo – Portfolio
 
 Welcome! I’m a Mechanical Engineering student at Colorado School of Mines, focused on robotics, mechatronics, and system integration.  
