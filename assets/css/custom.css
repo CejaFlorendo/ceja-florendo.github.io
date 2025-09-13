@@ -1,1 +1,34 @@
+/* Background & base text */
+body {
+  background-color: #000000; /* black background */
+  color: #e0e0e0; /* light gray text */
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #3399ff; /* bright blue */
+}
+
+/* Links */
+a {
+  color: #3399ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66ccff; /* lighter blue on hover */
+  text-decoration: underline;
+}
+
+/* Section dividers */
+hr {
+  border: 1px solid #3399ff;
+}
+
+/* Project titles */
+h2, h3 {
+  border-bottom: 2px solid #3399ff;
+  padding-bottom: 4px;
+}
 
