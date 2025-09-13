@@ -1,0 +1,31 @@
+/* Background & text */
+body {
+  background: #000000;   /* black background */
+  color: #e0e0e0;        /* light gray text */
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #ffffff;        /* pure white headings */
+}
+
+/* Links */
+a {
+  color: #3399ff;        /* blue links */
+}
+a:hover {
+  color: #66b2ff;        /* lighter blue on hover */
+}
+
+/* Buttons / project repo links */
+a.btn, a:visited.btn {
+  background: #3399ff;   /* blue button */
+  color: #ffffff;        /* white text */
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+a.btn:hover {
+  background: #66b2ff;   /* lighter blue hover */
+}
