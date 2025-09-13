@@ -1,21 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="auto">
   <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ceja Florendo — Portfolio</title>
+    <meta name="description" content="Portfolio for robotics, mechatronics, and controls projects." />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>{{ site.name }}</h1>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1 class="title">Ceja Florendo <span class="divider">—</span> <span class="subtitle">Portfolio</span></h1>
+          <p class="tagline">Mechanical Engineering · Robotics · Mechatronics · Controls</p>
+        </div>
+        <div class="header-actions">
+          <!-- TODO: replace the href with your portfolio repo URL -->
+          <a class="btn primary" href="https://github.com/YOUR-USERNAME?tab=repositories" target="_blank" rel="noopener">View Portfolio Projects ↗</a>
+          <button class="btn ghost" id="themeToggle" aria-label="Toggle theme">🌓</button>
+        </div>
+      </div>
     </header>
 
-    <main>
-      {{ content }}
+    <main class="container">
+      <section class="intro">
+        <p>
+          Welcome! I’m a Mechanical Engineering student at Colorado School of Mines focused on
+          <strong>robotics</strong>, <strong>mechatronics</strong>, and <strong>system integration</strong>.
+          Below are a few featured projects. Each card links to the GitHub repository with build notes, CAD, and code.
+        </p>
+      </section>
+
+      <section class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="grid">
+          <!-- Project 1 -->
+          <article class="card">
+            <header class="card-head">
+              <h3>Self-Balancing Roller Robot</h3>
+            </header>
+            <ul class="bullets">
+              <li>Designed and built a self-balancing robot using an IMU and ESP32 microcontroller</li>
+              <li>Tuned a PID controller to maintain zero-tilt; coordinated three DC motors with IMU feedback</li>
+              <li>Stress-tested and fault-analyzed the system for robustness</li>
+            </ul>
+            <footer class="card-foot">
+              <!-- TODO: replace with your actual repo link -->
+              <a class="btn" href="https://github.com/YOUR-USERNAME/ROLLER-ROBOT" target="_blank" rel="noopener">View Project Repository ↗</a>
+              <span class="tech">ESP32 · PID · IMU · CAD</span>
+            </footer>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card">
+            <header class="card-head">
+              <h3>2D Walking Simulation</h3>
+            </header>
+            <ul class="bullets">
+              <li>Developed a dynamic 2D bipedal walker from first principles using Lagrangian mechanics (MATLAB)</li>
+              <li>Implemented PD control of hip and knee joints with ground contact &amp; friction models</li>
+              <li>Validated stability under perturbations and achieved consistent gait cycles</li>
+            </ul>
+            <footer class="card-foot">
+              <a class="btn" href="https://github.com/YOUR-USERNAME/2D-WALKING-SIM" target="_blank" rel="noopener">View Project Repository ↗</a>
+              <span class="tech">MATLAB · Dynamics · PD Control</span>
+            </footer>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card">
+            <header class="card-head">
+              <h3>Plastic Recycling: Fine Shredder</h3>
+            </header>
+            <ul class="bullets">
+              <li>Designed a wired electrical system with motor controls and emergency stop</li>
+              <li>Performed FEA &amp; fatigue life analysis in SolidWorks</li>
+              <li>Prototyped shredding plastic with sub-millimeter precision</li>
+            </ul>
+            <footer class="card-foot">
+              <a class="btn" href="https://github.com/YOUR-USERNAME/PLASTIC-SHREDDER" target="_blank" rel="noopener">View Project Repository ↗</a>
+              <span class="tech">SolidWorks · FEA · Safety</span>
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2 class="section-title">Get in touch</h2>
+        <ul class="contact-list">
+          <!-- TODO: update these links -->
+          <li> <a href="mailto:you@example.com">you@example.com</a></li>
+          <li> <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">github.com/YOUR-USERNAME</a></li>
+          <li> <a href="https://www.linkedin.com/in/YOUR-USERNAME" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
-      <p>© {{ site.name }} | Robotics • Mechatronics • Verification & Validation</p>
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Ceja Florendo · Built with GitHub Pages.</p>
+      </div>
     </footer>
+
+    <script>
+      // Year
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // Theme toggle with persistence
+      const root = document.documentElement;
+      const saved = localStorage.getItem('theme');
+      if (saved) root.setAttribute('data-theme', saved);
+      document.getElementById('themeToggle').addEventListener('click', () => {
+        const current = root.getAttribute('data-theme') || 'auto';
+        const next = current === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
+    </script>
   </body>
 </html>
